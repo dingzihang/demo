@@ -11,7 +11,7 @@ import cn.zhouyafeng.itchat4j.face.IMsgHandlerFace;
  *
  */
 public class MyTest {
-	public static void main(String[] args) { 
+	public static void main(String[] args) {
 		String qrPath = "D://itchat4j//login"; // 保存登陆二维码图片的路径，这里需要在本地新建目录
 		IMsgHandlerFace msgHandler = new SimpleDemo(); // 实现IMsgHandlerFace接口的类
 		Wechat wechat = new Wechat(msgHandler, qrPath); // 【注入】
