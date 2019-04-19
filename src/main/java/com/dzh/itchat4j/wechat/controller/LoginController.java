@@ -17,7 +17,7 @@ public class LoginController {
 	@RequestMapping(value="/getQR")
 	@ResponseBody
     public String getQR(){
-		return QRcodeUtil.createQR();
+		return "";
 	}
 	
 }
